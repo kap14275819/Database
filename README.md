@@ -6,7 +6,6 @@
 ### Example: 
 #### The Entity Relationship Diagram below illustrates how the “entities”, in this instance or scenario; student, module, course, department, etc., relate to each other within a system.
 ![ERD](https://github.com/kap14275819/Database/blob/master/Entity%20Relationship%20Diagram.png)
-## Cardinality
 
 ## SQL
-#### 
+#### The SQL Database is essentially a structural layout based around the ERD example, though it is not fully completed it shows the basis in which what would be done to fully complete the database as the functional areas are integrated but no information fed into the tables, with the table insert fucntion needing duplication and actual information to fill, store and display information in the tables.
