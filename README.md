@@ -9,7 +9,7 @@
 ## Data Dictionary:
 #### Data dictionaries allow viewers to understand the type of input the database will have, for example some areas in the data dictionary will have "text" next to them whereas other will have "float". This is there so that it can indicate whether there will be some type of text within that area or a numerical value. Data dictionaries are important as they can keep the database consistent from the start by giving it a set point as it allows viewers to look onto a clear view of what the database is going to be like and can always be referred back to when stuck.
 
-#### ![Data Dictionary](https://github.com/kap14275819/Database/blob/master/data%20dictionary.png)
+#### ![Data Dictionary](https://github.com/kap14275819/Database/blob/master/data%20dictionary.jpg)
 
 #### This data dictionary shows how my database will consist of and what value types it will also have within the database. Using a spreadsheet this will help me in having a layout of that database. This will be helpful in case i mistakenly add an extra value within the database so i can refer back to it to avoid any complications that could occur.
 
