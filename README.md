@@ -28,6 +28,19 @@
 #### As a user I would like to create a report
 #### As a user I would like to use SQL code to add new tables to the database
 
+## Evidence Screenshots
+#### ![HeroReport](https://github.com/kap14275819/Database/blob/master/images/hero%20report.PNG)
+#### ![EnemiesReport](https://github.com/kap14275819/Database/blob/master/images/enemy%20report.PNG)
+#### ![HeroTable](https://github.com/kap14275819/Database/blob/master/images/hero%20table.PNG)
+#### ![EnemiesTable](https://github.com/kap14275819/Database/blob/master/images/enemy%20table.PNG)
+#### ![HeroForm](https://github.com/kap14275819/Database/blob/master/images/hero%20form.PNG)
+#### ![EnemiesForm](https://github.com/kap14275819/Database/blob/master/images/enemy%20form.PNG)
+#### ![HeroSkills]()
+#### ![EnemiesSkills]()
+#### ![HeroReport]()
+#### ![HeroReport]()
+#### ![HeroReport]()
+#### ![HeroReport]()
 
 Microsoft Access - Forms and Validation (screenshots)
 Microsoft Access - Reports (screenshots)
