@@ -58,61 +58,49 @@
 #### Below are some of the SQL code snippets that I used to create my databse, they come under the following types:
 
 ### Insert
+#### This command is used to insert values and data into tables.
 ```html 
-This command is used to insert values and data into tables.
-INSERT INTO ENEMIES VALUES( 1, 50,'MAGE', 150,'30' );
-INSERT INTO HEROES VALUES( 2, 20,'PALADIN', 150,'50' );
-INSERT INTO SPELLS VALUES( 1, 50,'FIREBALL', '150' );
+INSERT INTO ENEMIES VALUES( 1, 50,'DROID', 150,'30' );
+INSERT INTO HEROES VALUES( 2, 20,'CLONE', 150,'50' );
+INSERT INTO SKILLS VALUES( 1, 50,'LASER', '150' );
 ```
 ### Create
 
-This command is used to create new tables with new values.
-
+#### This command is used to create new tables with new values.
+```html 
 CREATE TABLE ENEMIES( ID INT NOT NULL PRIMARY KEY, LEVEL INT NOT NULL, NAME VARCHAR(50) NOT NULL, DAMAGE FLOAT NOT NULL, HP FLOAT NOT NULL );
-
 CREATE TABLE HEROES( ID INT NOT NULL PRIMARY KEY, LEVEL INT NOT NULL, NAME VARCHAR(50) NOT NULL, CLASS VARCJAR(50) NOT NULL, HP FLOAT NOT NULL );
-
 CREATE TABLE SPELLS( ID INT NOT NULL PRIMARY KEY, DAMAGEHEALING INT NOT NULL, NAME VARCHAR(50) NOT NULL, RANGE INT NOT NULL,
 );
-
 CREATE TABLE ENEMY_SKILLS( ENEMY_ID INT NOT NULL PRIMARY KEY, SPELL_ID INT NOT NULL PRIMARY KEY, LEVEL INT NOT NULL,
 );
-
 CREATE TABLE HERO_SKILLS( HERO_ID INT NOT NULL PRIMARY KEY, SPELL_ID INT NOT NULL PRIMARY KEY, LEVEL INT NOT NULL,
 );
-
+```
 ### Update
 
-This command is used to update the value of data within a table without having to create a new table.
-
+#### This command is used to update the value of data within a table without having to create a new table.
+```html 
 UPDATE HEROES SET LEVEL = 4 WHERE ID = 1;
-
-UPDATE HEROES SET DAMAGE = 12.4 WHERE NAME = BOI;
-
-UPDATE SPELLS SET RAGE = 4 WHERE ID = 4;
-
-UPDATE SPELLS SET DAMAGEHEALING = 4 WHERE NAME = FIREBALL;
-
+UPDATE HEROES SET DAMAGE = 12.4 WHERE NAME = CLONE;
+UPDATE SKILLS SET RAGE = 4 WHERE ID = 4;
+UPDATE SKILLS SET DAMAGEHEALING = 4 WHERE NAME = LASER;
+```
 ### Delete
 
-This command is used to delete values from tables, the type of data can be specified.
-
-DELETE FROM ENEMIES WHERE ID=2 LEVEL > 2 AND NAME='DRAGON';
-
-DELETE FROM ENEMIES WHERE NAME = 'MAGE';
-
-DELETE FROM SPELLS WHERE RANGE = 50 ;
-
+#### This command is used to delete values from tables, the type of data can be specified.
+```html 
+DELETE FROM ENEMIES WHERE ID=2 LEVEL > 2 AND NAME='STORM TROOPER';
+DELETE FROM ENEMIES WHERE NAME = 'DROID';
+DELETE FROM SKILLS WHERE RANGE = 50 ;
+```
 ### Select
 
-This command is used to search the database for any data that matches the paramaters you inpud into the command, it will then return any found data that fits these paramaters to you.
-
+#### This command is used to search the database for any data that matches the paramaters you inpud into the command, it will then return any found data that fits these paramaters to you.
+```html 
 SELECT H.CLASS, H.LEVEL, S.NAME, HS.LEVEL FROM HERO H, SKILLS S, HERO_SKILLS HS WHERE HS.HERO_ID = H.ID AND HS.SKILL_ID = S.ID AND S.NAME LIKE 'Fire%';
-
 SELECT * FROM HERO;
-
 SELECT LEVEL, CLASS FROM HERO WHERE ID = 2;
-
 SELECT MAX(H.LEVEL), MIN(H.LEVEL) FROM HERO H;
-
 SELECT AVG(H.LEVEL) FROM HERO H;
+```
