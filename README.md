@@ -28,6 +28,9 @@
 #### As a user I would like to create a report
 #### As a user I would like to use SQL code to add new tables to the database
 
+## Test Plan
+#### ![testplan](https://github.com/kap14275819/Database/blob/master/images/test%20plan.PNG)
+
 ## Evidence Screenshots
 #### Here is a list of screenshots that show the evidence of the database that i created. More can be searched through by clicking onto the database file which can be downloaded.
 ### Hero Report
