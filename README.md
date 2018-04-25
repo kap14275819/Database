@@ -29,6 +29,7 @@
 #### As a user I would like to use SQL code to add new tables to the database
 
 ## Evidence Screenshots
+#### Here is a list of screenshots that show the evidence of the database that i created. More can be searched through by clicking onto the database file which can be downloaded.
 ### Hero Report
 #### ![HeroReport](https://github.com/kap14275819/Database/blob/master/images/hero%20report.PNG)
 ### Enemy Report
@@ -48,6 +49,10 @@
 ### Skills
 #### ![Skills](https://github.com/kap14275819/Database/blob/master/images/skills.PNG)
 
+### Validation
+#### ![Validation](https://github.com/kap14275819/Database/blob/master/images/validation1.PNG)
+#### ![Validation](https://github.com/kap14275819/Database/blob/master/images/validation2.PNG)
+#### Here shows some errors that occur if the user attempts to input an invalid type of data into the form which does not connect with the rest of the database.
 
 ## SQL
 #### The SQL Database is essentially a structural layout based around the ERD example, though it is not fully completed it shows the basis in which what would be done to fully complete the database as the functional areas are integrated but no information fed into the tables, with the table insert fucntion needing duplication and actual information to fill, store and display information in the tables.
