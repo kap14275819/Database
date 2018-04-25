@@ -30,6 +30,7 @@
 
 ## Test Plan
 #### ![testplan](https://github.com/kap14275819/Database/blob/master/images/test%20plan.PNG)
+#### This test plan was to test different elements of the database in order to make sure that all elements of the database worked after it was completed.
 
 ## Evidence Screenshots
 #### Here is a list of screenshots that show the evidence of the database that i created. More can be searched through by clicking onto the database file which can be downloaded.
