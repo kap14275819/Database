@@ -29,21 +29,25 @@
 #### As a user I would like to use SQL code to add new tables to the database
 
 ## Evidence Screenshots
+### Hero Report
 #### ![HeroReport](https://github.com/kap14275819/Database/blob/master/images/hero%20report.PNG)
+### Enemy Report
 #### ![EnemiesReport](https://github.com/kap14275819/Database/blob/master/images/enemy%20report.PNG)
+### Hero Table
 #### ![HeroTable](https://github.com/kap14275819/Database/blob/master/images/hero%20table.PNG)
+### Enemy Table
 #### ![EnemiesTable](https://github.com/kap14275819/Database/blob/master/images/enemy%20table.PNG)
+### Hero Form
 #### ![HeroForm](https://github.com/kap14275819/Database/blob/master/images/hero%20form.PNG)
+### Enemy Form
 #### ![EnemiesForm](https://github.com/kap14275819/Database/blob/master/images/enemy%20form.PNG)
-#### ![HeroSkills]()
-#### ![EnemiesSkills]()
-#### ![HeroReport]()
-#### ![HeroReport]()
-#### ![HeroReport]()
-#### ![HeroReport]()
+### Hero Skills
+#### ![HeroSkills](https://github.com/kap14275819/Database/blob/master/images/hero%20skill.PNG)
+### Enemy Skills
+#### ![EnemiesSkills](https://github.com/kap14275819/Database/blob/master/images/enemy%20skill.PNG)
+### Skills
+#### ![Skills](https://github.com/kap14275819/Database/blob/master/images/skills.PNG)
 
-Microsoft Access - Forms and Validation (screenshots)
-Microsoft Access - Reports (screenshots)
 
 ## SQL
 #### The SQL Database is essentially a structural layout based around the ERD example, though it is not fully completed it shows the basis in which what would be done to fully complete the database as the functional areas are integrated but no information fed into the tables, with the table insert fucntion needing duplication and actual information to fill, store and display information in the tables.
